@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout 
+android:layout_width="match_parent"
+android:layout_height="50dip"
+android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/ET_qtelot"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:inputType="number"
+        android:gravity="center"
+/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@+string/multiplication"/>
+    
+        <EditText
+        android:id="@+id/ET_qteparlot"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:inputType="number"
+        android:gravity="center"
+/>
+    
+            <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@+string/egal"/>
+            
+                 <TextView 
+         android:id="@+id/TV_qtetotal"            
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+    />       
+            
+</LinearLayout>
+
+<LinearLayout 
+android:layout_width="match_parent"
+android:layout_height="50dip"
+android:orientation="horizontal">
+
+
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Prix du pack: "/>
+    
+        <EditText
+        android:id="@+id/ET_Prix"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:inputType="numberDecimal"
+        android:gravity="center"
+/>
+   
+            
+</LinearLayout>
+
+</LinearLayout>

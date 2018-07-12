@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Nom: " />
+
+        <EditText
+            android:id="@+id/TV_adddialog_name"
+            android:layout_width="200dip"
+            android:layout_height="match_parent"
+            android:gravity="center"
+ />
+    </LinearLayout>
+    
+  
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Qté nominale à stocker: " />
+
+        <EditText
+            android:id="@+id/TV_adddialog_qtenom"
+            android:layout_width="80dip"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Qté par lot: " />
+
+        <EditText
+            android:id="@+id/TV_adddialog_qtelot"
+            android:layout_width="80dip"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Prix achat: " />
+
+        <EditText
+            android:id="@+id/TV_adddialog_prixachat"
+            android:layout_width="80dip"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Prix vente: " />
+
+        <EditText
+            android:id="@+id/TV_adddialog_prixvente"
+            android:layout_width="80dip"
+            android:layout_height="match_parent" 
+            android:gravity="center"
+            android:inputType="numberDecimal"/>
+    </LinearLayout>
+</LinearLayout>

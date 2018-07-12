@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dip"
+            android:layout_height="match_parent"
+            android:lines="2"
+            android:gravity="center"
+                        android:textStyle="bold"
+            android:textColor="#ff8259"
+            android:text="boisson" />
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="match_parent"
+            android:lines="2"
+            android:gravity="center"
+                        android:textStyle="bold"
+            android:textColor="#ff8259"
+            android:text="Qté recommandée" />
+
+        <TextView
+            android:layout_width="70dip"
+            android:layout_height="match_parent"
+            android:lines="2"
+            android:gravity="center"
+                        android:textStyle="bold"
+            android:textColor="#ff8259"
+            android:text="Qté achetée" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/LV_course"
+        android:layout_width="match_parent"
+        android:layout_height="280dip"
+        android:choiceMode="multipleChoice" />
+
+    <Button
+        android:id="@+id/Savecourse"
+        android:layout_width="150dip"
+        android:layout_height="40dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip"
+        android:background="#ff8259"
+        android:text="@string/savecourse" />
+
+</LinearLayout>

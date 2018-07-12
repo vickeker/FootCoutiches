@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Foot Coutiches</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="inventaire">Inventaire</string>
+    <string name="course">Course</string>
+    <string name="statistique_period">Stat par période</string>
+    <string name="statistique_graph">Stat graphiques</string>
+<string name="saveinv">Enregistrer</string>
+<string name="add">Ajouter boisson</string>
+<string name="delete">Supprimer</string>
+<string name="edit">Editer boisson</string>
+<string name="Inv_Act">Inventaire</string>
+<string name="savecourse">Enregistrer</string>
+<string name="Course_Act">Course</string>
+<string name="Stat_period_Act">Stat par période</string>
+<string name="graph_Act">Stat par graphique</string>
+<string name="Edit_Act">Editer une boisson</string>
+<string name="multiplication">x</string>
+<string name="egal">=</string>
+<string name="archive">Archives</string>
+<string name="archive_act">Archives</string>
+</resources>

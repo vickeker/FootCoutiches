@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="keker.footcoutiche"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="Inventaire_Activity"
+            android:label="@string/Inv_Act"
+            android:parentActivityName="MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="keker.footcoutiche.MainActivity" />
+        </activity>
+        <activity
+            android:name="Course_Activity"
+            android:label="@string/Course_Act"
+            android:parentActivityName="MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="keker.footcoutiche.MainActivity" />
+        </activity>
+                <activity
+            android:name="Stat_period_Activity"
+            android:label="@string/Stat_period_Act"
+            android:parentActivityName="MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="keker.footcoutiche.MainActivity" />
+        </activity>
+             <activity
+            android:name="Edit_Activity"
+            android:label="@string/Edit_Act"
+            android:parentActivityName="MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="keker.footcoutiche.MainActivity" />
+        </activity>
+         <activity
+            android:name="Graph_boisson_Activity"
+            android:label="@string/graph_Act"
+            android:parentActivityName="MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="keker.footcoutiche.MainActivity" />
+        </activity>
+         <activity
+            android:name="Archive_Activity"
+            android:label="@string/archive_act"
+            android:parentActivityName="MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="keker.footcoutiche.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
